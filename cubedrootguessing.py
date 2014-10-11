@@ -7,4 +7,6 @@ while ans**3 < abs(x):
 if ans**3!=abs(x):
 	print(str(x)+ "is not a perfect cube")
 else:
+	if x < 0:
+		ans = -ans
 	print('Cube root of' + str(x)+ "is" + str(ans))
